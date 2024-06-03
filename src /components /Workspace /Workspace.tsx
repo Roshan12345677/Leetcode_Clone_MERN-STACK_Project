@@ -9,7 +9,6 @@ import useWindowSize from "@/hooks/useWindowSize";
 type WorkspaceProps = {
 	problem: Problem;
 };
-
 const Workspace: React.FC<WorkspaceProps> = ({ problem }) => {
 	const { width, height } = useWindowSize();
 	const [success, setSuccess] = useState(false);
